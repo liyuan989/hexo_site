@@ -86,8 +86,8 @@ footer:
 # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
-  license: by-nc-sa
-  sidebar: false
+  license: by-nd
+  sidebar: true
   post: false
   language:
 
@@ -97,8 +97,8 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
-scheme: Mist
+scheme: Muse
+#scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
 
@@ -198,7 +198,7 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: fa fa-link
-  title: #Links
+  title: Links
   # Available values: block | inline
   layout: block
 
@@ -565,10 +565,10 @@ quicklink:
 # Multiple Comment System Support
 comments:
   # Available values: tabs | buttons
-  style: tabs
+  style: buttons
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active:
+  active: 
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -584,8 +584,8 @@ comments:
 # Disqus
 disqus:
   enable: true
-  shortname:
-  count: true
+  shortname: originlee
+  count: false
   #post_meta_order: 0
 
 # DisqusJS
